@@ -1,4 +1,4 @@
-var webpackConfig = require('webpack');
+var webpackConfig = require('./webpack.config.js');
 module.exports = function(config) {
   config.set({
     browsers: ['Chrome'],
@@ -11,7 +11,7 @@ module.exports = function(config) {
     reporters: ['mocha'],
     client: {
       mocha: {
-        timeout: '5000'
+        timeout: '10000'
       }
     },
     webpack: webpackConfig,

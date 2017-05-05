@@ -26,7 +26,9 @@ module.exports = {
       applicationStyles: 'app/styles/app.scss',
       Nav: 'app/components/Nav.jsx',
       Timer: 'app/components/Timer.jsx',
+      Clock: 'app/components/Clock.jsx',
       Countdown: 'app/components/Countdown.jsx'
+
     },
     extensions: ['', '.js', '.jsx']
   },
@@ -43,4 +45,4 @@ module.exports = {
     ]
   },
   devtool: 'cheap-module-eval-source-map'
-}
+};
