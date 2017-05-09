@@ -1,1 +1,1 @@
-React Timer App 0.1
+React Timer App 0.2
